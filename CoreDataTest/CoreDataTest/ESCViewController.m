@@ -76,7 +76,7 @@
         [self performSelector:@selector(doSearchLocally) withObject:nil afterDelay:0.2];
     } else {
         [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(doSearch) object:nil];
-        [self performSelector:@selector(doSearch) withObject:nil afterDelay:0.7];
+        [self performSelector:@selector(doSearch) withObject:nil afterDelay:0.3];
     }
     return YES;
 }
@@ -84,15 +84,17 @@
 - (void)doSearch {
     [self.activityIndicator startAnimating];
     __block NSString *text = self.searchField.text;
+    NSLog(@"Starting search for %@", text);
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(queue, ^{
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name like[c] %@", [text stringByAppendingString:@"*"]];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name BEGINSWITH %@", [text uppercaseString]];
         NSArray *vals = [Test MR_findAllWithPredicate:predicate];
         self.resultVals = vals;
         dispatch_sync(dispatch_get_main_queue(), ^{
             [self.tableView reloadData];
             self.searchLabel.text = [NSString stringWithFormat:@"Found: %d items", [vals count]];
             [self.activityIndicator stopAnimating];
+            NSLog(@"Finished search %@", text);
         });
     });
 }
@@ -100,6 +102,7 @@
 - (void)doSearchLocally {
     [self.activityIndicator startAnimating];
     __block NSString *text = self.searchField.text;
+    NSLog(@"Starting search for %@", text);
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(queue, ^{
         NSMutableArray *vals = [NSMutableArray array];
@@ -113,6 +116,7 @@
             [self.tableView reloadData];
             self.searchLabel.text = [NSString stringWithFormat:@"Found: %d items", [vals count]];
             [self.activityIndicator stopAnimating];
+            NSLog(@"Finished search %@", text);
         });
     });
 }
