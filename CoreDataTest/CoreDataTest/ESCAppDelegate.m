@@ -9,11 +9,14 @@
 #import "ESCAppDelegate.h"
 
 #import "ESCViewController.h"
+#import "MagicalRecord.h"
+#import "MagicalRecord+Setup.h"
 
 @implementation ESCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Test.sqlite"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ESCViewController alloc] initWithNibName:@"ESCViewController" bundle:nil];
@@ -44,9 +47,8 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [MagicalRecord cleanUp];
 }
 
 @end

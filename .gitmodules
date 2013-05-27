@@ -1,0 +1,3 @@
+[submodule "CoreDataTest/MagicalRecords"]
+	path = CoreDataTest/MagicalRecords
+	url = git@github.com:grandcentrix/MagicalRecord.git
