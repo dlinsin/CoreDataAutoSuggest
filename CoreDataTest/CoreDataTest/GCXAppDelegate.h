@@ -1,5 +1,5 @@
 //
-//  ESCAppDelegate.h
+//  GCXAppDelegate.h
 //  CoreDataTest
 //
 //  Created by David Linsin on 5/27/13.
@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ESCViewController;
+@class GCXViewController;
 
-@interface ESCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GCXAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ESCViewController *viewController;
+@property (strong, nonatomic) GCXViewController *viewController;
 
 @end

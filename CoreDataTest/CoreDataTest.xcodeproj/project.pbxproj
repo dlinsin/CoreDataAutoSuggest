@@ -42,12 +42,12 @@
 		B61D040F17532CC9009D0ED4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D040E17532CC9009D0ED4 /* CoreGraphics.framework */; };
 		B61D041517532CC9009D0ED4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B61D041317532CC9009D0ED4 /* InfoPlist.strings */; };
 		B61D041717532CC9009D0ED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D041617532CC9009D0ED4 /* main.m */; };
-		B61D041B17532CC9009D0ED4 /* ESCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D041A17532CC9009D0ED4 /* ESCAppDelegate.m */; };
+		B61D041B17532CC9009D0ED4 /* GCXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D041A17532CC9009D0ED4 /* GCXAppDelegate.m */; };
 		B61D041D17532CC9009D0ED4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D041C17532CC9009D0ED4 /* Default.png */; };
 		B61D041F17532CC9009D0ED4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D041E17532CC9009D0ED4 /* Default@2x.png */; };
 		B61D042117532CC9009D0ED4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D042017532CC9009D0ED4 /* Default-568h@2x.png */; };
-		B61D042417532CC9009D0ED4 /* ESCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D042317532CC9009D0ED4 /* ESCViewController.m */; };
-		B61D042717532CC9009D0ED4 /* ESCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61D042517532CC9009D0ED4 /* ESCViewController.xib */; };
+		B61D042417532CC9009D0ED4 /* GCXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D042317532CC9009D0ED4 /* GCXViewController.m */; };
+		B61D042717532CC9009D0ED4 /* GCXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61D042517532CC9009D0ED4 /* GCXViewController.xib */; };
 		B61D042F17532CC9009D0ED4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D042E17532CC9009D0ED4 /* SenTestingKit.framework */; };
 		B61D043017532CC9009D0ED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D040A17532CC9009D0ED4 /* UIKit.framework */; };
 		B61D043117532CC9009D0ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D040C17532CC9009D0ED4 /* Foundation.framework */; };
@@ -135,14 +135,14 @@
 		B61D041417532CC9009D0ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B61D041617532CC9009D0ED4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B61D041817532CC9009D0ED4 /* CoreDataTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataTest-Prefix.pch"; sourceTree = "<group>"; };
-		B61D041917532CC9009D0ED4 /* ESCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCAppDelegate.h; sourceTree = "<group>"; };
-		B61D041A17532CC9009D0ED4 /* ESCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCAppDelegate.m; sourceTree = "<group>"; };
+		B61D041917532CC9009D0ED4 /* GCXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCXAppDelegate.h; sourceTree = "<group>"; };
+		B61D041A17532CC9009D0ED4 /* GCXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCXAppDelegate.m; sourceTree = "<group>"; };
 		B61D041C17532CC9009D0ED4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B61D041E17532CC9009D0ED4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B61D042017532CC9009D0ED4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B61D042217532CC9009D0ED4 /* ESCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCViewController.h; sourceTree = "<group>"; };
-		B61D042317532CC9009D0ED4 /* ESCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCViewController.m; sourceTree = "<group>"; };
-		B61D042617532CC9009D0ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ESCViewController.xib; sourceTree = "<group>"; };
+		B61D042217532CC9009D0ED4 /* GCXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCXViewController.h; sourceTree = "<group>"; };
+		B61D042317532CC9009D0ED4 /* GCXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCXViewController.m; sourceTree = "<group>"; };
+		B61D042617532CC9009D0ED4 /* GCXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GCXViewController.xib; path = en.lproj/GCXViewController.xib; sourceTree = "<group>"; };
 		B61D042D17532CC9009D0ED4 /* CoreDataTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61D042E17532CC9009D0ED4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B61D043617532CC9009D0ED4 /* CoreDataTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTestTests-Info.plist"; sourceTree = "<group>"; };
@@ -321,11 +321,11 @@
 		B61D041017532CC9009D0ED4 /* CoreDataTest */ = {
 			isa = PBXGroup;
 			children = (
-				B61D041917532CC9009D0ED4 /* ESCAppDelegate.h */,
-				B61D041A17532CC9009D0ED4 /* ESCAppDelegate.m */,
-				B61D042217532CC9009D0ED4 /* ESCViewController.h */,
-				B61D042317532CC9009D0ED4 /* ESCViewController.m */,
-				B61D042517532CC9009D0ED4 /* ESCViewController.xib */,
+				B61D041917532CC9009D0ED4 /* GCXAppDelegate.h */,
+				B61D041A17532CC9009D0ED4 /* GCXAppDelegate.m */,
+				B61D042217532CC9009D0ED4 /* GCXViewController.h */,
+				B61D042317532CC9009D0ED4 /* GCXViewController.m */,
+				B61D042517532CC9009D0ED4 /* GCXViewController.xib */,
 				B61D041117532CC9009D0ED4 /* Supporting Files */,
 				B61D0445175330D3009D0ED4 /* Model.xcdatamodeld */,
 				6835ED3B236DD9BF659F6E40 /* generate.txt */,
@@ -446,7 +446,7 @@
 				B61D041D17532CC9009D0ED4 /* Default.png in Resources */,
 				B61D041F17532CC9009D0ED4 /* Default@2x.png in Resources */,
 				B61D042117532CC9009D0ED4 /* Default-568h@2x.png in Resources */,
-				B61D042717532CC9009D0ED4 /* ESCViewController.xib in Resources */,
+				B61D042717532CC9009D0ED4 /* GCXViewController.xib in Resources */,
 				6835E1813A662A551BA59006 /* generate.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,8 +483,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61D041717532CC9009D0ED4 /* main.m in Sources */,
-				B61D041B17532CC9009D0ED4 /* ESCAppDelegate.m in Sources */,
-				B61D042417532CC9009D0ED4 /* ESCViewController.m in Sources */,
+				B61D041B17532CC9009D0ED4 /* GCXAppDelegate.m in Sources */,
+				B61D042417532CC9009D0ED4 /* GCXViewController.m in Sources */,
 				B61D0447175330D3009D0ED4 /* Model.xcdatamodeld in Sources */,
 				6835E084CCB8BE8EB3A5F88F /* MagicalRecord.m in Sources */,
 				6835E662A89E53FE331B0CE5 /* MagicalRecord+Setup.m in Sources */,
@@ -544,12 +544,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B61D042517532CC9009D0ED4 /* ESCViewController.xib */ = {
+		B61D042517532CC9009D0ED4 /* GCXViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B61D042617532CC9009D0ED4 /* en */,
+				B61D042617532CC9009D0ED4 /* GCXViewController.xib */,
 			);
-			name = ESCViewController.xib;
+			name = GCXViewController.xib;
 			sourceTree = "<group>";
 		};
 		B61D043717532CC9009D0ED4 /* InfoPlist.strings */ = {

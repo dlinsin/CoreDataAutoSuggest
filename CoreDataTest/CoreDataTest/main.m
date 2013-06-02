@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ESCAppDelegate.h"
+#import "GCXAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ESCAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([GCXAppDelegate class]));
     }
 }

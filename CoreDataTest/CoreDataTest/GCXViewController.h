@@ -1,5 +1,5 @@
 //
-//  ESCViewController.h
+//  GCXViewController.h
 //  CoreDataTest
 //
 //  Created by David Linsin on 5/27/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ESCViewController : UIViewController<UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface GCXViewController : UIViewController<UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @property(nonatomic, strong) IBOutlet UILabel *generateLabel;
 @property(nonatomic, strong) IBOutlet UITextField *searchField;

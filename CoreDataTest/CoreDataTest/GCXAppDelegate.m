@@ -1,25 +1,25 @@
 //
-//  ESCAppDelegate.m
+//  GCXAppDelegate.m
 //  CoreDataTest
 //
 //  Created by David Linsin on 5/27/13.
 //  Copyright (c) 2013 grandcentrix GmbH. All rights reserved.
 //
 
-#import "ESCAppDelegate.h"
+#import "GCXAppDelegate.h"
 
-#import "ESCViewController.h"
+#import "GCXViewController.h"
 #import "MagicalRecord.h"
 #import "MagicalRecord+Setup.h"
 
-@implementation ESCAppDelegate
+@implementation GCXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"Test.sqlite"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ESCViewController alloc] initWithNibName:@"ESCViewController" bundle:nil];
+    self.viewController = [[GCXViewController alloc] initWithNibName:@"GCXViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

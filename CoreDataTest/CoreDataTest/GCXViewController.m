@@ -1,20 +1,20 @@
 //
-//  ESCViewController.m
+//  GCXViewController.m
 //  CoreDataTest
 //
 //  Created by David Linsin on 5/27/13.
 //  Copyright (c) 2013 grandcentrix GmbH. All rights reserved.
 //
 
-#import "ESCViewController.h"
+#import "GCXViewController.h"
 #import "Test.h"
 
-@interface ESCViewController ()
+@interface GCXViewController ()
 
 @property(nonatomic, strong) NSArray *test;
 @end
 
-@implementation ESCViewController
+@implementation GCXViewController
 
 @synthesize generateLabel;
 
