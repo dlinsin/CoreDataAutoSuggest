@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Test.sqlite"];
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Name.sqlite"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[GCXViewController alloc] initWithNibName:@"GCXViewController" bundle:nil];

@@ -1,7 +1,7 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to Test.m instead.
+// Make changes to Name.m instead.
 
-#import "_Test.h"
+#import "_Name.h"
 
 const struct TestAttributes TestAttributes = {
 	.desc = @"desc",
@@ -18,20 +18,20 @@ const struct TestFetchedProperties TestFetchedProperties = {
 @implementation TestID
 @end
 
-@implementation _Test
+@implementation _Name
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
-	return [NSEntityDescription insertNewObjectForEntityForName:@"Test" inManagedObjectContext:moc_];
+	return [NSEntityDescription insertNewObjectForEntityForName:@"Name" inManagedObjectContext:moc_];
 }
 
 + (NSString*)entityName {
-	return @"Test";
+	return @"Name";
 }
 
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
-	return [NSEntityDescription entityForName:@"Test" inManagedObjectContext:moc_];
+	return [NSEntityDescription entityForName:@"Name" inManagedObjectContext:moc_];
 }
 
 - (TestID*)objectID {

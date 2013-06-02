@@ -1,5 +1,5 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to Test.h instead.
+// Make changes to Name.h instead.
 
 #import <CoreData/CoreData.h>
 
@@ -24,7 +24,7 @@ extern const struct TestFetchedProperties {
 @interface TestID : NSManagedObjectID {}
 @end
 
-@interface _Test : NSManagedObject {}
+@interface _Name : NSManagedObject {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
@@ -71,11 +71,11 @@ extern const struct TestFetchedProperties {
 
 @end
 
-@interface _Test (CoreDataGeneratedAccessors)
+@interface _Name (CoreDataGeneratedAccessors)
 
 @end
 
-@interface _Test (CoreDataGeneratedPrimitiveAccessors)
+@interface _Name (CoreDataGeneratedPrimitiveAccessors)
 
 
 - (NSString*)primitiveDesc;
