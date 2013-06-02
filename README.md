@@ -23,4 +23,6 @@ depending on the `UISwitch` being _ON_ or _OFF_.
 
 You probably don't want to really use this!
 
+## Visual
+
 ![](https://github.com/dlinsin/CoreDataAutoSuggest/wiki/files/screen.png)
